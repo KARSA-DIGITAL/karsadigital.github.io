@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="KarsaDigital — Website portofolio 3 mahasiswa Sarjana Terapan Manajemen Informatika. Fokus pada Web Development dan System Analysis." />
+  <meta name="author" content="Tim KarsaDigital" />
+  <title>KarsaDigital | Beranda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- ==================== HEADER (Floating Navbar) ==================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="index.html" class="logo" aria-label="KarsaDigital - Beranda">
+        <span class="logo-mark" aria-hidden="true">K</span>
+        <span class="logo-text">KarsaDigital</span>
+      </a>
+
+      <!-- Menu Navigasi -->
+      <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li><a href="index.html"       class="nav-link" data-page="index">Beranda</a></li>
+          <li><a href="profil.html"      class="nav-link" data-page="profil">Profil Kami</a></li>
+          <li><a href="portofolio.html"  class="nav-link" data-page="portofolio">Portofolio</a></li>
+        </ul>
+      </nav>
+
+      <!-- Aksi Kanan -->
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ganti tema" title="Ganti tema">
+          <span class="theme-icon" aria-hidden="true">day</span>
+        </button>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==================== MAIN ==================== -->
+  <main>
+
+    <!-- ---------- HERO SECTION (Editorial Style) ---------- -->
+    <section class="hero">
+      <div class="container hero-inner">
+
+        <!-- Kiri: Teks Besar -->
+        <div class="hero-content">
+          <p class="eyebrow">Sarjana Terapan Manajemen Informatika</p>
+          
+          <h1 class="hero-title">
+            Merancang <br>
+            <span class="text-outline">Masa Depan</span> <br>
+            Lewat Kode.
+          </h1>
+
+          <p class="hero-desc">
+            KarsaDigital hadir sebagai wadah eksplorasi mahasiswa Manajemen Informatika di bidang <strong>Web Development</strong> & <strong>System Analysis</strong> untuk menciptakan pengalaman web yang responsif, intuitif, dan bermakna.
+        </p>
+
+          <div class="hero-actions">
+            <a href="profil.html" class="btn btn-primary">Kenali Kami</a>
+            <a href="portofolio.html" class="btn btn-text">Lihat Karya</a>
+          </div>
+        </div>
+
+        <!-- Kanan: Visual Abstrak (Pengganti Foto) -->
+        <div class="hero-visual">
+          <div class="visual-card">
+            <div class="visual-img">
+                <img src="images/beranda.jpg" alt="Foto Tim KarsaDigital" class="img-cover">
+            </div>
+            <div class="visual-overlay">
+              <span class="tag">Est. 2026</span>
+              <p>Web Dev & System Analysis</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ---------- STATS SECTION (Minimalist Grid) ---------- -->
+    <section class="stats" aria-labelledby="statsTitle">
+      <div class="container">
+        <div class="stats-header">
+          <h2 id="statsTitle" class="section-title">Sekilas Tim</h2>
+          <p class="section-subtitle">Rekapitulasi singkat perjalanan dan standar kualitas kolaborasi kami.</p>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card">
+            <p class="stat-number" data-target="3">0</p>
+            <p class="stat-label">Kolabolator</p>
+          </article>
+
+          <article class="stat-card">
+            <p class="stat-number" data-target="5" data-suffix="+">0</p>
+            <p class="stat-label">Karya tuntas</p>
+          </article>
+
+          <article class="stat-card">
+            <p class="stat-number" data-target="100" data-suffix="%">0</p>
+            <p class="stat-label">Commitment</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER (Minimalis) ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      
+      <div class="footer-brand">
+        <h2 class="footer-logo">KarsaDigital<span>.</span></h2>
+        <p class="footer-tagline">
+          Ruang kolaborasi dan eksekusi digital.<br>
+          Sarjana Terapan Manajemen Informatika.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub Repositori</a>
+        <a href="profil.html">Profil Kami</a>
+        <a href="portofolio.html">Portofolio</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 KarsaDigital. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

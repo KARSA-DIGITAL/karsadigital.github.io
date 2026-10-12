@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Sistem Informasi Perpustakaan",
+    "category": "web",
+    "categoryLabel": "Web Development",
+    "description": "Aplikasi web untuk manajemen peminjaman dan pengembalian buku berbasis PHP dan MySQL.",
+    "longDescription": "Aplikasi web komprehensif yang dilengkapi fitur pencarian buku, perhitungan denda otomatis, dan laporan bulanan. Dibuat untuk memenuhi tugas mata kuliah Pemrograman Web Lanjut.",
+    "image": "images/perpus.jpg",
+    "tech": ["PHP", "MySQL", "Bootstrap", "Chart.js"],
+    "team": ["...", "..."]
+  },
+  {
+    "id": 2,
+    "title": "Aplikasi Mobile Kampus",
+    "category": "uiux",
+    "categoryLabel": "UI/UX Design",
+    "description": "Desain prototipe aplikasi mobile untuk mahasiswa menggunakan Figma.",
+    "longDescription": "Desain prototipe aplikasi mobile yang fokus pada kemudahan navigasi, akses jadwal kuliah, dan notifikasi pengumuman akademik. Melalui tahap user research hingga high-fidelity prototype.",
+    "image": "images/univ.jpg",
+    "tech": ["Figma", "UI/UX Research", "Prototyping"],
+    "team": ["...", "Azzahra Cahya"]
+  },
+  {
+    "id": 3,
+    "title": "Analisis Proses Bisnis UMKM",
+    "category": "analisis",
+    "categoryLabel": "Analisis Sistem",
+    "description": "Perancangan alur sistem dan flowchart untuk digitalisasi UMKM lokal.",
+    "longDescription": "Perancangan alur sistem dan flowchart BPMN untuk digitalisasi proses bisnis UMKM lokal. Bertujuan untuk efisiensi operasional dan pencatatan stok yang lebih akurat.",
+    "image": "images/umkm.jpg",
+    "tech": ["BPMN", "Flowchart", "System Analysis"],
+    "team": ["Azzahra Cahya"]
+  }
+]
