@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/33363318/README.md)
+[README.md](https://github.com/user-attachments/files/33363369/README.md)
 KarsaDigital 
 
 Website portofolio kolaboratif mahasiswa **Sarjana Terapan Manajemen Informatika**,
@@ -12,8 +12,8 @@ dibuat untuk memenuhi **Ujian Tengah Semester (UTS) Pemrograman Web**.
 
 | Nama | NIM | 
 |------|-----|
-| Andi Pratama | 230101001 | 
-| Budi Santoso | 230101002 | 
+| Devkana Afra Alif Gifari | 25091397121 | 
+| Abiyyu Fathin | 25091397138 | 
 | Azzahra Cahya Setyani Wafa Aribah | 25091397152 | 
 
 ---
